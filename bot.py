@@ -75,7 +75,7 @@ args = parser.parse_args()
 print("Spotihisbot launched !! Ctrl-C to kill me :)")
 if args.start == "start":
     scheduler = BlockingScheduler()
-    scheduler.add_job(job_task, 'interval', minutesc=1)
+    scheduler.add_job(job_task, 'interval', minutes=1)
     scheduler.start()
 
 
