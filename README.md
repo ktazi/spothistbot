@@ -9,6 +9,7 @@ A bot whose purpose is to gather one's spotify history and transform it into a .
 1. Have python and pip installed.
 
 2. All the dependencies are in requirements.txt.
+To install : `pip install -r requirements.txt`
 
 3. It is advised to create a virtual environment for this bot.
 
